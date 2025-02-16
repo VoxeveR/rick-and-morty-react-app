@@ -1,0 +1,64 @@
+.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: transform;
+}
+
+.center-image:hover {
+    transform: scale(1.03);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ui.table {
+    margin: 0 auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.ui.table tbody td {
+    padding: 0.5em 0.5em !important;
+}
+
+.character-detail-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(135deg, #1f2933 0%, #11171d 100%);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-controls {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-button {
+    color: #88d8d4 !important;
+    background: #1f2933 !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5) !important;
+    transition: all 0.3s ease-in-out !important;
+    border-radius: 8px !important;
+}
+
+.id-counter {
+    font-weight: bold;
+    color: #00b5ad;
+}
+
+
+
